@@ -1,6 +1,6 @@
-![logo](/media/cover.png)
+![logo](../media/cover.png)
 
-# 山河已秋
+# 山河已秋2
 
 > A magical documentation site generator.
 
@@ -9,4 +9,4 @@
 * Not build static html files
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](/quick-start)
+[Get Started](/book-1/guide.md)
