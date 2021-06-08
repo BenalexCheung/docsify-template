@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="my.css">
+</head>
+
+<body>
+
+  <!-- MAIN (Center website) -->
+  <div class="main">
+
+    <h1>LAZULI'S BOOKS</h1>
+    <hr>
+
+    <h2>BOOKSHELF</h2>
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('program')"> Program</button>
+      <button class="btn" onclick="filterSelection('fiction')"> Fiction</button>
+
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column fiction">
+        <div class="card" onclick="location.href='docs';">
+          <img src="docs/_media/cover.png" alt="Mountains" style="width:100%">
+          <div class="container">
+          <h4>山河已秋</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+        </div>
+      </div>
+      <div class="column program">
+        <div class="card" onclick="location.href='coding-interviews';">
+          <img src="coding-interviews/_media/cover.jpg" alt="Lights" style="width:100%">
+          <div class="container">
+          <h4>还没想好名字呢</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+        </div>
+      </div>
+      <!-- END GRID -->
+    </div>
+
+    <!-- END MAIN -->
+  </div>
+  <script src="my.js"></script>
+
+</body>
+
+</html>
